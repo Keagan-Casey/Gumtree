@@ -1,0 +1,332 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+
+.header {
+  padding: 0.2%;
+  text-align: center;
+  background-color: #ffbc04;
+  color: white;
+  font-size:0.51vw;
+  width: 100%;
+}
+
+
+#CovidNotice {
+
+  color: #383434;
+  width: 100%;
+}
+
+a {
+
+text-decoration: underline;
+color: black;
+font-weight: lighter;
+}
+
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #302434;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+
+
+}
+
+
+
+#navElementCar {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.6% 0.6%;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-left: 0.3%;
+  font-size: 1vw;
+}
+
+#navElement{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.6% 0.6%;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-left: 1.9%;
+  font-size: 1vw;
+}
+
+#navElementFAQ{
+  float: left;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 0.3% 0.3%;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-left: 4%;
+  font-size: 1.3vw;
+}
+
+
+
+#navElementAccount{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.6% 0.6%;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-left: 2%;
+  font-size: 1vw;
+}
+
+#navElementMore{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.6% 0.6%;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-right: 4%;
+  font-size: 1vw;
+  padding-left: 2.7%;
+}
+
+
+#navElementVL {
+  float: left;
+  display: block;
+  color: #808080;
+  text-align: center;
+  padding: 0.6% 0.6%;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-left: 5px;
+  font-size: 1.2vw;
+}
+
+
+
+
+#navElementHome {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.6% 0.6%;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-left: 7.5%;
+  font-size: 1vw;
+}
+
+
+
+
+#navbar a:hover {
+  color: #c4d0cc;
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+
+#Account {
+  background-color: #302434;
+  color: white;
+  border: 0.5px solid #444048;
+  width: 150%;
+
+
+
+}
+
+#Account:hover {
+  background-color: #503c54;
+  transition-duration: 0.2s;
+  color: white;
+
+}
+
+#heroimage {
+padding-top: 2.4%;
+width: 100%;
+z-index: -1;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-71%, -70%);
+  color: white;
+}
+
+.hero-text2 {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(23%, 10%);
+  color: white;
+  font-size: 2.1vw;
+  font-weight: bold;
+
+}
+
+.hero-text3 {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(45%, 140%);
+  color: white;
+  font-size: 0.8vw;
+
+}
+
+#adPost {
+  padding: 15px 32px;
+  color: white;
+  background-color: #40ac34;
+     transform: translate(920%, -650%);
+     border: none;
+     border-radius: 3px;
+     font-weight: bold;
+     font-size: 1vw;
+}
+
+.header_wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+
+    height: 130px;
+    margin-top: -180px;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 13%;
+    width: 86%;
+    position: fixed;
+    z-index: 0;
+
+}
+
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+
+}
+
+#catagories {
+
+  width: 20%;
+  height: 70px;
+  color: black;
+  margin-left: -70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 1;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+
+
+}
+
+#search {
+
+  width: 40%;
+  height: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 1;
+  margin-left: -5px;
+  border-left: 1px solid grey;
+
+
+
+}
+
+#location {
+
+  height: 70px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 1;
+  margin-left: -5px;
+  border-left: 1px solid grey;
+
+
+}
+
+#distance {
+  width: 10%;
+  height: 70px;
+  background-color: rgba(255,255,255,1);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 1;
+  margin-left: -5px;
+  border-left: 1px solid grey;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+
+
+
+  }
+
+#submitBtn {
+
+  margin-top: 30px;
+  position: fixed;
+
+
+}
+
+
+#HelpIcon {
+
+  height: 23px;
+  position: fixed;
+  margin-top: 2px;
+}
+
+#profileIcon {
+
+  position: fixed;
+  height: 23px;
+  margin-top:2px;
+  margin-left: 1px;
+  margin-right: 1px;
+
+
+}
+
+
+#HomeIcon {
+
+    height: 23px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
